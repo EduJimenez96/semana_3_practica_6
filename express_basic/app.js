@@ -9,3 +9,7 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
   console.log(`Example app lsitening on port ${port}`)
 })
+
+app.get('/launchx', (req, res) => {
+  res.send('Bienvenidos launch X')  
+})
